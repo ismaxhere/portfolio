@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ankon — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a class="logo" href="#">Ankon.</a>
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+        <span class="toggle-icon">☀</span>
+        <span class="toggle-label">Light</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <div class="hero">
+    <span class="hero-chip">Thinking &nbsp;·&nbsp; Building &nbsp;·&nbsp; Kolkata</span>
+    <h1>I craft tools<br>for clarity.</h1>
+    <p>
+      Most tools feel like they were built to sell.
+      I try to build differently—with intention.
+      I start from the question: what does this need to feel like?
+      <br><br>
+      I work with AI, but AI is just a medium. Ideas come first.
+    </p>
+    <div class="hero-actions">
+      <a href="#projects" class="btn-dark">View Projects</a>
+      <a href="#contact" class="btn-light">Get in Touch</a>
+    </div>
+  </div>
+
+  <hr class="divider"/>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <p class="section-label">Work</p>
+    <div class="projects-grid">
+
+      <!-- PROJECT 1 — Threadline -->
+      <div class="project-card">
+        <p class="project-num">01</p>
+        <h3>Threadline</h3>
+        <p class="desc">
+          A space where conversations grow like trees. Moods change the color. Replies branch naturally.
+          I'm asking: how do small motions change how a thought feels?
+          <br><br>
+          <em>I'd love your feedback on how to make it better.</em>
+        </p>
+        <div class="tag-row">
+          <span class="tag featured">Featured</span>
+          <span class="tag beta">Beta</span>
+          <span class="tag">React</span>
+          <span class="tag">Tailwind CSS</span>
+          <span class="tag">Framer Motion</span>
+        </div>
+        <a href="https://github.com/ismaxhere/Threadline" target="_blank" class="project-link">View on GitHub →</a>
+      </div>
+
+      <!-- PROJECT 2 — Decide It For Me -->
+      <div class="project-card">
+        <p class="project-num">02</p>
+        <h3>Decide It For Me</h3>
+        <p class="desc">
+          A tool that reads your hesitation. It picks for you, and your pause says everything.
+          Sometimes we know what we want—we just don't trust it.
+        </p>
+        <div class="tag-row">
+          <span class="tag psychology">Psychology</span>
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+        </div>
+        <a href="https://github.com/ismaxhere/decideitforme" target="_blank" class="project-link">View on GitHub →</a>
+      </div>
+
+      <!-- PROJECT 3 — add when ready -->
+      <div class="project-card">
+        <p class="project-num">03</p>
+        <h3>Crafting Magic</h3>
+        <p class="desc">
+          Check back soon.
+        </p>
+        <div class="tag-row">
+          <span class="tag">In progress</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <hr class="divider"/>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <p class="section-label">Who I Am</p>
+    <div class="about-layout">
+
+      <div class="about-card">
+        <p class="card-label">In Fewer Words</p>
+        <p>
+          Based in Kolkata.
+          I build tools—sometimes with AI, always with intention.
+          I write too, mostly to understand what I feel.
+          <br><br>
+          I start with a few why's.
+          Why should this exist?
+          What does it really change?
+          <br><br>
+          I think only things with real value last.
+          Everything else fades out.
+        </p>
+      </div>
+
+      <div class="about-card">
+        <p class="card-label">What I'm Good At</p>
+        <p>
+          Thinking things through before I build.
+          Sitting with a question a bit longer than usual.
+          <br><br>
+          Building when it makes sense.
+          Using AI when it helps.
+          <br><br>
+          Writing, when I need to understand something.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <hr class="divider"/>
+
+  <!-- WRITING -->
+  <section id="writing">
+    <p class="section-label">Writing</p>
+    <div class="about-layout">
+      <div class="about-card">
+        <p class="card-label">Essays &amp; Thoughts</p>
+        <div style="display: flex; flex-direction: column; gap: 12px;">
+          <a href="https://docs.google.com/document/d/1U2hQPcnpdWmIcgY0MdIQoHLMh43UGBkLqKUHvf6-Hts" target="_blank" class="writing-link" style="padding: 12px; background: var(--surface2); border-radius: 6px; border-left: 2px solid var(--border); display: block; transition: opacity 0.2s;">
+            <p style="font-size: 13px; color: var(--text); margin: 0; font-weight: 500;">Rewritten</p>
+          </a>
+          <div style="padding: 12px; background: var(--surface2); border-radius: 6px; border-left: 2px solid var(--border); opacity: 0.6;">
+            <p style="font-size: 13px; color: var(--muted); margin: 0;">Coming soon</p>
+          </div>
+        </div>
+      </div>
+      <div class="about-card">
+        <p class="card-label">Why I Write</p>
+        <p>
+          Writing helps me see things clearly.
+          Not to make it sound good—just to understand it better.
+          <br><br>
+          If it makes you pause for a second,
+          that's enough.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider"/>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="contact-inner">
+      <h2>I'd like to hear what you're thinking about.</h2>
+      <div class="contact-links">
+        <a href="mailto:ankonnaskar1@gmail.com" class="contact-link">Email</a>
+        <a href="https://github.com/ismaxhere" target="_blank" class="contact-link">GitHub</a>
+        <a href="https://instagram.com/ankonhere" target="_blank" class="contact-link">Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Ankon &nbsp;&middot;&nbsp; <a href="https://docs.google.com/document/d/1U2hQPcnpdWmIcgY0MdIQoHLMh43UGBkLqKUHvf6-Hts" target="_blank" style="text-decoration: none; color: inherit; border-bottom: 0.5px solid var(--border);">Read my writing</a> &nbsp;&middot;&nbsp; Built thoughtfully
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
