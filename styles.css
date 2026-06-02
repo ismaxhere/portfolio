@@ -320,6 +320,12 @@ section {
   border: 0.5px solid var(--accent);
 }
 
+.tag.fullstack {
+    background: transparent;
+    color: #7f8bdc;
+    border: 0.5px solid #7f8bdc44;
+}
+
 .project-link {
   display: inline-block;
   font-size: 12px;
